@@ -1,0 +1,403 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.putts_portal.putts_portal"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\debug\AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:3:5-65
+15-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:3:22-62
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-68
+16-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-65
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-79
+17-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-76
+18    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+18-->[:open_file] C:\Users\MGLIT\IdeaProjects\putts_portal\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-83
+18-->[:open_file] C:\Users\MGLIT\IdeaProjects\putts_portal\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-80
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->[:open_file] C:\Users\MGLIT\IdeaProjects\putts_portal\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-80
+19-->[:open_file] C:\Users\MGLIT\IdeaProjects\putts_portal\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-77
+20    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+20-->[:flutter_local_notifications] C:\Users\MGLIT\IdeaProjects\putts_portal\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-81
+20-->[:flutter_local_notifications] C:\Users\MGLIT\IdeaProjects\putts_portal\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-78
+21    <uses-permission android:name="android.permission.VIBRATE" />
+21-->[:flutter_local_notifications] C:\Users\MGLIT\IdeaProjects\putts_portal\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-66
+21-->[:flutter_local_notifications] C:\Users\MGLIT\IdeaProjects\putts_portal\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-63
+22    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+22-->[:flutter_local_notifications] C:\Users\MGLIT\IdeaProjects\putts_portal\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-81
+22-->[:flutter_local_notifications] C:\Users\MGLIT\IdeaProjects\putts_portal\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-78
+23    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+23-->[:flutter_local_notifications] C:\Users\MGLIT\IdeaProjects\putts_portal\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-79
+23-->[:flutter_local_notifications] C:\Users\MGLIT\IdeaProjects\putts_portal\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-76
+24    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+24-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\a56e3d53fd5d36e5f52666c5a0543711\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:25:5-82
+24-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\a56e3d53fd5d36e5f52666c5a0543711\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:25:22-79
+25
+26    <application
+26-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:4:4-53:19
+27        android:name="androidx.multidex.MultiDexApplication"
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.3.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\4e18b07d0dc048b1659c7953e6f6bc93\core-1.3.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:6:9-43
+31        android:label="putts_portal" >
+31-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:5:9-37
+32        <activity
+32-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:7:9-43:20
+33            android:name="com.putts_portal.putts_portal.MainActivity"
+33-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:8:13-41
+34            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+34-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:11:13-163
+35            android:hardwareAccelerated="true"
+35-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:12:13-47
+36            android:launchMode="singleTop"
+36-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:9:13-43
+37            android:theme="@style/LaunchTheme"
+37-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:10:13-47
+38            android:windowSoftInputMode="adjustResize" >
+38-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:13:13-55
+39
+40            <!--
+41                 Specifies an Android theme to apply to this Activity as soon as
+42                 the Android process has started. This theme is visible to the user
+43                 while the Flutter UI initializes. After that, this theme continues
+44                 to determine the Window background behind the Flutter UI.
+45            -->
+46            <meta-data
+46-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:18:13-21:17
+47                android:name="io.flutter.embedding.android.NormalTheme"
+47-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:19:15-70
+48                android:resource="@style/NormalTheme" />
+48-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:20:15-52
+49            <meta-data
+49-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:22:13-24:41
+50                android:name="flutterEmbedding"
+50-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:23:21-52
+51                android:value="2" />
+51-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:24:21-38
+52            <!--
+53                 Displays an Android View that continues showing the launch screen
+54                 Drawable until Flutter paints its first frame, then this splash
+55                 screen fades out. A splash screen is useful to avoid any visual
+56                 gap between the end of Android's launch screen and the painting of
+57                 Flutter's first frame.
+58            -->
+59            <meta-data
+59-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:30:13-33:17
+60                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+60-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:31:15-79
+61                android:resource="@drawable/launch_background" />
+61-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:32:15-61
+62
+63            <intent-filter>
+63-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:34:13-37:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:35:17-68
+64-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:35:25-66
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:36:17-76
+66-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:36:27-74
+67            </intent-filter>
+68            <intent-filter>
+68-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:39:13-42:29
+69                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+69-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:40:17-68
+69-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:40:25-66
+70
+71                <category android:name="android.intent.category.DEFAULT" />
+71-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:41:17-75
+71-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:41:27-73
+72            </intent-filter>
+73        </activity>
+74        <!--
+75             Don't delete the meta-data below.
+76             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+77        -->
+78        <meta-data
+78-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:46:9-48:54
+79            android:name="com.google.firebase.messaging.default_notification_icon"
+79-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:47:13-83
+80            android:resource="@mipmap/ic_launcher" />
+80-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:48:13-51
+81        <meta-data
+81-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:50:8-52:57
+82            android:name="com.google.firebase.messaging.default_notification_color"
+82-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:51:16-87
+83            android:resource="@color/colorPrimary" />
+83-->C:\Users\MGLIT\IdeaProjects\putts_portal\android\app\src\main\AndroidManifest.xml:52:16-54
+84
+85        <service
+85-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-15:72
+86            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+86-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-107
+87            android:exported="false"
+87-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+88            android:permission="android.permission.BIND_JOB_SERVICE" />
+88-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-69
+89        <service
+89-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-22:19
+90            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+90-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-97
+91            android:exported="false" >
+91-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+92            <intent-filter>
+92-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-21:29
+93                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+93-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-78
+93-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:20:25-75
+94            </intent-filter>
+95        </service>
+96
+97        <receiver
+97-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:24:9-31:20
+98            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+98-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-98
+99            android:exported="true"
+99-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-36
+100            android:permission="com.google.android.c2dm.permission.SEND" >
+100-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-73
+101            <intent-filter>
+101-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-30:29
+102                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+102-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:29:17-81
+102-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:29:25-78
+103            </intent-filter>
+104        </receiver>
+105
+106        <service
+106-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:33:9-37:19
+107            android:name="com.google.firebase.components.ComponentDiscoveryService"
+107-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:33:18-89
+108            android:directBootAware="true"
+108-->[com.google.firebase:firebase-common:20.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\cf44503f512bd01edbb9a42565c54f02\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+109            android:exported="false" >
+109-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\a56e3d53fd5d36e5f52666c5a0543711\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:51:13-37
+110            <meta-data
+110-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-36:85
+111                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+111-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:35:17-128
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:36:17-82
+113            <meta-data
+113-->[:firebase_core] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+114                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+114-->[:firebase_core] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[:firebase_core] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+116            <meta-data
+116-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\a56e3d53fd5d36e5f52666c5a0543711\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:52:13-54:85
+117                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+117-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\a56e3d53fd5d36e5f52666c5a0543711\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:53:17-119
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\a56e3d53fd5d36e5f52666c5a0543711\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:54:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\29c5673bc47885ea14d02ece37658da4\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:28:13-30:85
+120                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+120-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\29c5673bc47885ea14d02ece37658da4\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:29:17-115
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\29c5673bc47885ea14d02ece37658da4\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:30:17-82
+122            <meta-data
+122-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\bfaa8387d061af9163bf78fbdd75ee7b\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+123                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+123-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\bfaa8387d061af9163bf78fbdd75ee7b\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\bfaa8387d061af9163bf78fbdd75ee7b\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+125        </service>
+126
+127        <provider
+127-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:39:9-43:38
+128            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+128-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-102
+129            android:authorities="com.putts_portal.putts_portal.flutterfirebasemessaginginitprovider"
+129-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-88
+130            android:exported="false"
+130-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-37
+131            android:initOrder="99" />
+131-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-35
+132        <provider
+132-->[:image_picker] C:\Users\MGLIT\IdeaProjects\putts_portal\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+133            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+133-->[:image_picker] C:\Users\MGLIT\IdeaProjects\putts_portal\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-82
+134            android:authorities="com.putts_portal.putts_portal.flutter.image_provider"
+134-->[:image_picker] C:\Users\MGLIT\IdeaProjects\putts_portal\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+135            android:exported="false"
+135-->[:image_picker] C:\Users\MGLIT\IdeaProjects\putts_portal\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+136            android:grantUriPermissions="true" >
+136-->[:image_picker] C:\Users\MGLIT\IdeaProjects\putts_portal\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+137            <meta-data
+137-->[:image_picker] C:\Users\MGLIT\IdeaProjects\putts_portal\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+138                android:name="android.support.FILE_PROVIDER_PATHS"
+138-->[:image_picker] C:\Users\MGLIT\IdeaProjects\putts_portal\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+139                android:resource="@xml/flutter_image_picker_file_paths" />
+139-->[:image_picker] C:\Users\MGLIT\IdeaProjects\putts_portal\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+140        </provider>
+141        <provider
+141-->[:open_file] C:\Users\MGLIT\IdeaProjects\putts_portal\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-21:20
+142            android:name="com.crazecoder.openfile.FileProvider"
+142-->[:open_file] C:\Users\MGLIT\IdeaProjects\putts_portal\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-64
+143            android:authorities="com.putts_portal.putts_portal.fileProvider.com.crazecoder.openfile"
+143-->[:open_file] C:\Users\MGLIT\IdeaProjects\putts_portal\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-88
+144            android:exported="false"
+144-->[:open_file] C:\Users\MGLIT\IdeaProjects\putts_portal\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+145            android:grantUriPermissions="true" >
+145-->[:open_file] C:\Users\MGLIT\IdeaProjects\putts_portal\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+146            <meta-data
+146-->[:image_picker] C:\Users\MGLIT\IdeaProjects\putts_portal\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+147                android:name="android.support.FILE_PROVIDER_PATHS"
+147-->[:image_picker] C:\Users\MGLIT\IdeaProjects\putts_portal\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+148                android:resource="@xml/filepaths" />
+148-->[:image_picker] C:\Users\MGLIT\IdeaProjects\putts_portal\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+149        </provider>
+150
+151        <receiver
+151-->[:flutter_local_notifications] C:\Users\MGLIT\IdeaProjects\putts_portal\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-15:40
+152            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+152-->[:flutter_local_notifications] C:\Users\MGLIT\IdeaProjects\putts_portal\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-97
+153            android:exported="false" />
+153-->[:flutter_local_notifications] C:\Users\MGLIT\IdeaProjects\putts_portal\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+154        <receiver
+154-->[:flutter_local_notifications] C:\Users\MGLIT\IdeaProjects\putts_portal\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-25:20
+155            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+155-->[:flutter_local_notifications] C:\Users\MGLIT\IdeaProjects\putts_portal\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-101
+156            android:exported="false" >
+156-->[:flutter_local_notifications] C:\Users\MGLIT\IdeaProjects\putts_portal\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+157            <intent-filter>
+157-->[:flutter_local_notifications] C:\Users\MGLIT\IdeaProjects\putts_portal\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-24:29
+158                <action android:name="android.intent.action.BOOT_COMPLETED" />
+158-->[:flutter_local_notifications] C:\Users\MGLIT\IdeaProjects\putts_portal\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-79
+158-->[:flutter_local_notifications] C:\Users\MGLIT\IdeaProjects\putts_portal\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:20:25-76
+159                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+159-->[:flutter_local_notifications] C:\Users\MGLIT\IdeaProjects\putts_portal\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:21:17-84
+159-->[:flutter_local_notifications] C:\Users\MGLIT\IdeaProjects\putts_portal\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:21:25-81
+160                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+160-->[:flutter_local_notifications] C:\Users\MGLIT\IdeaProjects\putts_portal\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-82
+160-->[:flutter_local_notifications] C:\Users\MGLIT\IdeaProjects\putts_portal\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:22:25-79
+161                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+161-->[:flutter_local_notifications] C:\Users\MGLIT\IdeaProjects\putts_portal\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:23:17-82
+161-->[:flutter_local_notifications] C:\Users\MGLIT\IdeaProjects\putts_portal\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:23:25-79
+162            </intent-filter>
+163        </receiver>
+164
+165        <activity android:name="de.mintware.barcode_scan.BarcodeScannerActivity" />
+165-->[:barcode_scan2] C:\Users\MGLIT\IdeaProjects\putts_portal\build\barcode_scan2\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-84
+165-->[:barcode_scan2] C:\Users\MGLIT\IdeaProjects\putts_portal\build\barcode_scan2\intermediates\library_manifest\debug\AndroidManifest.xml:10:19-81
+166
+167        <provider
+167-->[:printing] C:\Users\MGLIT\IdeaProjects\putts_portal\build\printing\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+168            android:name="net.nfet.flutter.printing.PrintFileProvider"
+168-->[:printing] C:\Users\MGLIT\IdeaProjects\putts_portal\build\printing\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-71
+169            android:authorities="com.putts_portal.putts_portal.flutter.printing"
+169-->[:printing] C:\Users\MGLIT\IdeaProjects\putts_portal\build\printing\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-68
+170            android:exported="false"
+170-->[:printing] C:\Users\MGLIT\IdeaProjects\putts_portal\build\printing\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+171            android:grantUriPermissions="true" >
+171-->[:printing] C:\Users\MGLIT\IdeaProjects\putts_portal\build\printing\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+172            <meta-data
+172-->[:image_picker] C:\Users\MGLIT\IdeaProjects\putts_portal\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+173                android:name="android.support.FILE_PROVIDER_PATHS"
+173-->[:image_picker] C:\Users\MGLIT\IdeaProjects\putts_portal\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+174                android:resource="@xml/flutter_printing_file_paths" />
+174-->[:image_picker] C:\Users\MGLIT\IdeaProjects\putts_portal\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+175        </provider>
+176
+177        <receiver
+177-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\a56e3d53fd5d36e5f52666c5a0543711\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:28:9-35:20
+178            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+178-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\a56e3d53fd5d36e5f52666c5a0543711\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:29:13-78
+179            android:exported="true"
+179-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\a56e3d53fd5d36e5f52666c5a0543711\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:30:13-36
+180            android:permission="com.google.android.c2dm.permission.SEND" >
+180-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\a56e3d53fd5d36e5f52666c5a0543711\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:31:13-73
+181            <intent-filter>
+181-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-30:29
+182                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+182-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:29:17-81
+182-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:29:25-78
+183            </intent-filter>
+184        </receiver>
+185        <!--
+186             FirebaseMessagingService performs security checks at runtime,
+187             but set to not exported to explicitly avoid allowing another app to call it.
+188        -->
+189        <service
+189-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\a56e3d53fd5d36e5f52666c5a0543711\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:41:9-48:19
+190            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+190-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\a56e3d53fd5d36e5f52666c5a0543711\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:42:13-82
+191            android:directBootAware="true"
+191-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\a56e3d53fd5d36e5f52666c5a0543711\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:43:13-43
+192            android:exported="false" >
+192-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\a56e3d53fd5d36e5f52666c5a0543711\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:44:13-37
+193            <intent-filter android:priority="-500" >
+193-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-21:29
+194                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+194-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-78
+194-->[:firebase_messaging] C:\Users\MGLIT\IdeaProjects\putts_portal\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:20:25-75
+195            </intent-filter>
+196        </service>
+197        <service
+197-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\c1b875a1567d127c75e5d36185d64378\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:29:9-35:19
+198            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+198-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\c1b875a1567d127c75e5d36185d64378\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:30:13-103
+199            android:exported="false" >
+199-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\c1b875a1567d127c75e5d36185d64378\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:31:13-37
+200            <meta-data
+200-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\c1b875a1567d127c75e5d36185d64378\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:32:13-34:39
+201                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+201-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\c1b875a1567d127c75e5d36185d64378\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:33:17-94
+202                android:value="cct" />
+202-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\c1b875a1567d127c75e5d36185d64378\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:34:17-36
+203        </service>
+204
+205        <provider
+205-->[com.google.firebase:firebase-common:20.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\cf44503f512bd01edbb9a42565c54f02\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+206            android:name="com.google.firebase.provider.FirebaseInitProvider"
+206-->[com.google.firebase:firebase-common:20.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\cf44503f512bd01edbb9a42565c54f02\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+207            android:authorities="com.putts_portal.putts_portal.firebaseinitprovider"
+207-->[com.google.firebase:firebase-common:20.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\cf44503f512bd01edbb9a42565c54f02\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+208            android:directBootAware="true"
+208-->[com.google.firebase:firebase-common:20.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\cf44503f512bd01edbb9a42565c54f02\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+209            android:exported="false"
+209-->[com.google.firebase:firebase-common:20.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\cf44503f512bd01edbb9a42565c54f02\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+210            android:initOrder="100" />
+210-->[com.google.firebase:firebase-common:20.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\cf44503f512bd01edbb9a42565c54f02\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+211
+212        <meta-data
+212-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\e177543937edddeee5b40a41d3c637af\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+213            android:name="com.google.android.gms.version"
+213-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\e177543937edddeee5b40a41d3c637af\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+214            android:value="@integer/google_play_services_version" />
+214-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\e177543937edddeee5b40a41d3c637af\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+215
+216        <service
+216-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\2ebfb026f9cdcbb544bc48708eefe8cc\jetified-transport-runtime-3.0.0\AndroidManifest.xml:26:9-30:19
+217            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+217-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\2ebfb026f9cdcbb544bc48708eefe8cc\jetified-transport-runtime-3.0.0\AndroidManifest.xml:27:13-117
+218            android:exported="false"
+218-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\2ebfb026f9cdcbb544bc48708eefe8cc\jetified-transport-runtime-3.0.0\AndroidManifest.xml:28:13-37
+219            android:permission="android.permission.BIND_JOB_SERVICE" >
+219-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\2ebfb026f9cdcbb544bc48708eefe8cc\jetified-transport-runtime-3.0.0\AndroidManifest.xml:29:13-69
+220        </service>
+221
+222        <receiver
+222-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\2ebfb026f9cdcbb544bc48708eefe8cc\jetified-transport-runtime-3.0.0\AndroidManifest.xml:32:9-34:40
+223            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+223-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\2ebfb026f9cdcbb544bc48708eefe8cc\jetified-transport-runtime-3.0.0\AndroidManifest.xml:33:13-132
+224            android:exported="false" />
+224-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\MGLIT\.gradle\caches\transforms-2\files-2.1\2ebfb026f9cdcbb544bc48708eefe8cc\jetified-transport-runtime-3.0.0\AndroidManifest.xml:34:13-37
+225    </application>
+226
+227</manifest>

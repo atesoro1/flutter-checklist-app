@@ -1,0 +1,6 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/putts_portal/putts_portal/BuildConfig.java
+ com.putts_portal.putts_portal.BuildConfig
+com/gl_app/gl_app/MainActivity.java
+ com.putts_portal.putts_portal.MainActivity

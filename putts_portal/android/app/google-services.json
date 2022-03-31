@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1043611438037",
+    "project_id": "puttsportalmessaging",
+    "storage_bucket": "puttsportalmessaging.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043611438037:android:87abcf26dfca18068ecb5c",
+        "android_client_info": {
+          "package_name": "com.putts_portal.putts_portal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1043611438037-h7jc10g0nm6sn8r4mfkdp2pjo80ftq75.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWCU8nW-PqLOGbJVdkfByLSXfvDIlmn9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1043611438037-h7jc10g0nm6sn8r4mfkdp2pjo80ftq75.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

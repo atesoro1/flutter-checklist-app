@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "mysql-import": "^5.0.21"
+  }
+}
